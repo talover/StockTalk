@@ -1,0 +1,58 @@
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);    background-repeat: no-repeat;
+    display: block;
+
+    &.sprite-1 {
+        .stitches-sprite(-5px, -5px, 21px, 21px);
+    }
+
+    &.sprite-10 {
+        .stitches-sprite(-36px, -5px, 12px, 12px);
+    }
+
+    &.sprite-11 {
+        .stitches-sprite(-58px, -5px, 12px, 12px);
+    }
+
+    &.sprite-12 {
+        .stitches-sprite(-80px, -5px, 33px, 33px);
+    }
+
+    &.sprite-2 {
+        .stitches-sprite(-123px, -5px, 20px, 20px);
+    }
+
+    &.sprite-3 {
+        .stitches-sprite(-153px, -5px, 15px, 18px);
+    }
+
+    &.sprite-4 {
+        .stitches-sprite(-178px, -5px, 23px, 17px);
+    }
+
+    &.sprite-5 {
+        .stitches-sprite(-36px, -32px, 10px, 20px);
+    }
+
+    &.sprite-6 {
+        .stitches-sprite(-5px, -62px, 200px, 80px);
+    }
+
+    &.sprite-7 {
+        .stitches-sprite(-211px, -5px, 88px, 35px);
+    }
+
+    &.sprite-8 {
+        .stitches-sprite(-215px, -50px, 20px, 20px);
+    }
+
+    &.sprite-9 {
+        .stitches-sprite(-245px, -50px, 45px, 44px);
+    }
+}
