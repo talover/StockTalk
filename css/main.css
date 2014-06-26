@@ -16,6 +16,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 11pt;
   background: #fff;
+  min-width: 480px;
 }
 ::-moz-selection {
   background: #b3d4fc;
@@ -112,7 +113,7 @@ ul li {
   float: right;
 }
 .MainContainer {
-  width: 100%;
+  width: 95%;
   margin: auto;
   max-width: 1108px;
 }
@@ -120,6 +121,9 @@ ul li {
   background-image: url(images/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
+}
+#main {
+  overflow: hidden;
 }
 #HeadeBlock {
   height: 670px;
@@ -463,7 +467,12 @@ ul li {
   margin-right: 10px;
 }
 #content .menu {
-  padding: 14px 0 0 7px;
+  padding: 14px 7px 0 7px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
 }
 #content .menu .logo {
   background-image: url(images/spritesheet.png);
