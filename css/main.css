@@ -252,6 +252,7 @@ ul li {
   padding: 25px 0 0 0;
   font-size: 36pt;
   font-weight: normal;
+  text-transform: uppercase;
 }
 #HeadeBlock .MainContainer .FloatLeft h3 {
   font-size: 22pt;
@@ -260,6 +261,7 @@ ul li {
   line-height: 1;
   padding: 18px 0 26px 0;
   border-bottom: 3px solid rgba(170,183,186,0.5);
+  text-transform: uppercase;
 }
 #HeadeBlock .MainContainer .FloatLeft p {
   font-size: 11pt;
@@ -267,6 +269,7 @@ ul li {
   text-align: center;
   padding: 23px 35px 0 35px;
   color: #c0cdd5;
+  text-transform: uppercase;
 }
 #HeadeBlock .MainContainer .FloatRight {
   width: 278px;
