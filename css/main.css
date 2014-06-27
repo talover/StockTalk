@@ -580,7 +580,7 @@ ul li {
   outline: 0;
   display: block;
   padding: 0;
-  height: 34px;
+  height: 30px;
   background: none !important;
   -webkit-border-radius: 20px;
   -moz-order-radius: 20px;
@@ -588,14 +588,9 @@ ul li {
   -o-border-radius: 20px;
   border-radius: 20px;
   border: 2px solid;
-  line-height: 34px;
+  line-height: 30px;
   letter-spacing: 1px;
   margin: auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   -ms-transition: 0.5s all ease;
