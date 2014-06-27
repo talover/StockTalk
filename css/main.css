@@ -232,7 +232,7 @@ ul li {
   z-index: 102;
 }
 #HeadeBlock .MainContainer .FloatLeft {
-  width: 480px;
+  width: 43%;
   margin: 0 0 0 11.5%;
   text-transform: uppercase;
   color: #fff;
@@ -253,10 +253,12 @@ ul li {
   font-size: 36pt;
   font-weight: normal;
   text-transform: uppercase;
+  text-align: center;
 }
 #HeadeBlock .MainContainer .FloatLeft h3 {
   font-size: 22pt;
   font-weight: normal;
+  text-align: center;
   margin: 0;
   line-height: 1;
   padding: 18px 0 26px 0;

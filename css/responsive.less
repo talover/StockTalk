@@ -1,15 +1,15 @@
 
-@media (max-width:980px) {
+@media (max-width:981px) {
 
 	#HeadeBlock {
-	    height: 860px;
+	    height: 550px;
 
 	    .SliderBlock {
 	        .bx-wrapper {
 	            .bx-viewport {
 	                #slider {
 	                    li {
-	                        height:860px;
+	                        height:550px;
 	                    }
 	                }
 	            }
@@ -17,17 +17,29 @@
 	    }// END .SliderBlock
 
 	    .MainContainer  {
-	        top: 90px;
+	        top: 60px;
 
 	        .FloatLeft {
-	            margin: auto;
-	            float: none;
+	        	width: 50%;
+	        	margin: 0 0 0 5%;
+
+	        	h1 {
+	        		font-size: 30pt;
+	        	}
+	        	h3 {
+	        		font-size: 20pt;
+	        	}
 	        }
 
-	        .FloatRight {
-	            margin: auto;
-	            float: none;
-	        }
+	        // .FloatLeft {
+	        //     margin: auto;
+	        //     float: none;
+	        // }
+
+	        // .FloatRight {
+	        //     margin: auto;
+	        //     float: none;
+	        // }
 	    }// END .MainContainer
 
 	    .StatisticsBlock {
@@ -70,7 +82,46 @@
 	    }
 	}// END .AboutBlock
 }
+@media (max-width:800px) {
 
+	#HeadeBlock {
+	    height: 830px;
+
+	    .SliderBlock {
+	        .bx-wrapper {
+	            .bx-viewport {
+	                #slider {
+	                    li {
+	                        height:830px;
+	                    }
+	                }
+	            }
+	        }
+	    }// END .SliderBlock
+
+	    .MainContainer  {
+	        .FloatLeft {
+	            margin: auto;
+	            float: none;
+	            width: 480px;
+	        }
+
+	        .FloatRight {
+	            margin: auto;
+	            float: none;
+	        }
+	    }// END .MainContainer
+
+	    .StatisticsBlock {
+	        ul {
+	            li {
+	                padding: 0;
+	                text-align: center;
+	            }
+	        }
+	    }// END .StatisticsBlock
+	}// END HeaderBlock
+}
 @media (max-width:768px) {
 
 	#HeadeBlock {
